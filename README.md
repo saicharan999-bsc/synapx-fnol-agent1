@@ -42,17 +42,20 @@ synapx-fnol-agent/
 
 pip install -r requirements.txt
 
-2. Run with default sample
+### 2. Run with default sample
+
 python src/main.py
 
-3. Run with a specific FNOL document
+###3. Run with a specific FNOL document
+
 python src/main.py input_docs/fnol_fraud.txt
 python src/main.py input_docs/fnol_injury.txt
 
-Output Format
+### Output Format
 {
   "extractedFields": {},
   "missingFields": [],
   "recommendedRoute": "",
   "reasoning": ""
 }
+
